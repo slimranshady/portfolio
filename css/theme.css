@@ -5,8 +5,8 @@
 @viewport { width: device-width; scale: 1; }
 
 :root {
-  --color-primary: #00102f;
-  --color-primary-light: #2a008c;
+  --color-primary: #1c1847;
+  --color-primary-light: #d9224e;
   --color-secondary: #ff0066;
   --color-accent: #ffcc0d;
   --color-white: #fff;
