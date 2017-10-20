@@ -199,7 +199,7 @@ footer {
 
   .banner-content {
     position: absolute;
-    padding-top: 30%;
+    padding-top: 25%;
     width: 100%;
   }
 
@@ -255,7 +255,7 @@ footer {
 
     .horizontal {
       display: block;
-      padding-top: 6rem;
+      padding-top: 3rem;
     }
 
     .about-photo {
