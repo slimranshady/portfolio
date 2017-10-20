@@ -928,7 +928,7 @@ button,
   display: inline-block;
   margin: 0;
   overflow: visible;
-  margin-top: 8rem;
+  margin-top: 2em;
   padding: .75em 1em .75em;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -1136,4 +1136,12 @@ a:focus, [tabindex="0"]:focus {
   }
 
   /* End HTML5 Boilerplate code */
+}
+
+@media only screen and (min-width: 60em) {
+
+  .btn {
+    margin-top: 4rem;
+  }
+
 }

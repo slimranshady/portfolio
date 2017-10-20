@@ -53,8 +53,13 @@ h3 {
   font-size: 1.5rem;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+}
+
 .nav {
-  padding: 1rem;
+  padding: 0;
   margin: 0;
   text-align: center;
   display: block;
@@ -62,8 +67,12 @@ h3 {
   width: 100%;
 }
 
-.nav-bar {
-    background-color: var(--color-primary-light);
+.nav-top {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 li {
@@ -73,7 +82,7 @@ li {
 }
 
 .logo {
-  width: 3rem;
+  width: 4rem;
   display: block;
 }
 
@@ -157,6 +166,10 @@ footer {
   padding: 2rem;
 }
 
+.hover {
+  display: none;
+}
+
 .project-group {
   margin-top: 0rem;
   padding: 2rem;
@@ -193,9 +206,15 @@ footer {
     .nav {
       position: fixed;
       text-align: right;
-      padding: 3rem;
+      padding: 2rem;
       top: 0;
       left: 0;
+      z-index: 999;
+      width: 100%;
+    }
+
+    .nav-top {
+      position: fixed;
       z-index: 999;
       width: 100%;
     }
