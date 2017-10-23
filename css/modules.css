@@ -83,19 +83,6 @@ img {
   width: 100%;
 }
 
-svg {
-  fill: currentColor;
-}
-
-svg:not(:root) {
-  overflow: hidden;
-}
-
-svg.img-flex {
-  width: 100%;
-  height: 100%;
-}
-
 .image-replacement, .ir {
   overflow: hidden;
   direction: ltr;
@@ -285,15 +272,6 @@ svg.img-flex {
 .i-256, .i--256 {
   height: 256px;
   width: 256px;
-}
-
-.icon img,
-.icon svg {
-  left: 0;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  width: 100%;
 }
 
 .icon-label {
@@ -949,8 +927,8 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  background-color: #fff;
-  color: #d9224e;
+  border: 1px solid var(--color-accent);
+  color: var(--color-accent);
 }
 
 button[disabled] {
@@ -1005,17 +983,6 @@ button[disabled] {
 
 a:hover, a:active {
   outline: none;
-}
-
-a:focus,
-[tabindex="0"]:focus,
-details:focus,
-summary:focus,
-input:focus,
-textarea:focus,
-button:focus,
-select:focus {
-  outline: 3px solid #000;
 }
 
 a:focus, [tabindex="0"]:focus {

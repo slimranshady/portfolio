@@ -24,10 +24,16 @@ html {
 a {
   text-decoration: none;
   color: #fff;
+  padding: 0;
+  margin: 0;
 }
 
 a:hover {
   color: var(--color-accent);
+}
+
+p {
+  line-height: 2;
 }
 
 h1 {
@@ -42,6 +48,7 @@ h1 {
 h2 {
   padding: 2rem;
   margin: 0;
+  padding-top: 2em;
   text-align: center;
   font-weight: lighter;
   font-size: 3rem;
@@ -51,6 +58,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
+  line-height: 1.5;
 }
 
 nav {
@@ -81,11 +89,6 @@ li {
   font-size: 1rem;
 }
 
-.logo {
-  width: 4rem;
-  display: block;
-}
-
 .logo-back {
   width: 50px;
   text-align: center;
@@ -93,6 +96,15 @@ li {
   padding-top: 2rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.logo-svg {
+  width: 4rem;
+}
+
+svg {
+  padding: 0;
+  margin: 0;
 }
 
 .banner {
@@ -130,9 +142,15 @@ li {
   margin-right: 2rem;
 }
 
+.about-wrapper {
+    position: relative;
+}
+
 .work {
   width: 100%;
   text-align: center;
+  position: relative;
+  padding-bottom: 2em;
 }
 
 .project-thumbnail {
@@ -142,10 +160,22 @@ li {
 }
 
 footer {
-  background-color: var(--color-primary-light);
   margin: 0;
   padding: 2rem;
+  padding-top: 0;
   text-align: center;
+  position: relative;
+}
+
+.section-break {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: 50%;
 }
 
 .padding-2 {
@@ -220,6 +250,8 @@ footer {
     }
 
     .nav-bar {
+      background-color: transparent;
+      background-image: linear-gradient(to top, rgba(28, 24, 71, 0), rgba(28, 24, 71, .75));
       position: fixed;
       padding: 2rem;
       top: 0;
@@ -228,14 +260,10 @@ footer {
       width: 100%;
     }
 
-    .logo {
-      width: 4rem;
-      display: inline-block;
-    }
-
     .logo-back {
       display: inline-block;
       padding-top: 0;
+      margin: 0;
       margin-left: 2rem;
     }
 
@@ -272,10 +300,6 @@ footer {
       display: inline-block;
       width: 16rem;
       margin: 2rem;
-    }
-
-    h3 {
-      font-size: .75rem;
     }
 
     .project-group {
