@@ -46,9 +46,10 @@ h1 {
 }
 
 h2 {
-  padding: 2rem;
+  padding: 0;
   margin: 0;
   padding-top: 2em;
+  padding-bottom: 1em;
   text-align: center;
   font-weight: lighter;
   font-size: 3rem;
@@ -59,6 +60,8 @@ h2 {
 h3 {
   font-size: 1.5rem;
   line-height: 1.5;
+  padding: 1em;
+  margin: 0;
 }
 
 nav {
@@ -75,14 +78,6 @@ nav {
   width: 100%;
 }
 
-.nav-top {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
-
 li {
   display: inline-block;
   padding: 1rem;
@@ -90,21 +85,19 @@ li {
 }
 
 .logo-back {
-  width: 50px;
   text-align: center;
   display: block;
-  padding-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 2rem;
 }
 
 .logo-svg {
-  width: 4rem;
-}
-
-svg {
+  width: 4em;
   padding: 0;
   margin: 0;
+}
+
+svg:hover path {
+  fill: var(--color-accent);
 }
 
 .banner {
@@ -175,7 +168,6 @@ footer {
     left: 0;
     top: 0;
     z-index: -1;
-    opacity: 50%;
 }
 
 .padding-2 {
@@ -186,8 +178,9 @@ footer {
 .social-icon {
   width: 2rem;
   display: inline-block;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 1em;
+  margin-right: 1em;
+  padding: 0;
 }
 
 .social-media {
@@ -196,13 +189,10 @@ footer {
   padding: 2rem;
 }
 
-.hover {
-  display: none;
-}
-
 .project-group {
-  margin-top: 0rem;
   padding: 2rem;
+  margin-top: 6em;
+  position: relative;
 }
 
 .project-photo {
@@ -241,19 +231,11 @@ footer {
       left: 0;
       z-index: 999;
       width: 100%;
-    }
-
-    .nav-top {
-      position: fixed;
-      z-index: 999;
-      width: 100%;
+      background-image: linear-gradient(to top, rgba(28, 24, 71, 0), rgba(28, 24, 71, .75));
     }
 
     .nav-bar {
-      background-color: transparent;
-      background-image: linear-gradient(to top, rgba(28, 24, 71, 0), rgba(28, 24, 71, .75));
       position: fixed;
-      padding: 2rem;
       top: 0;
       left: 0;
       z-index: 999;
@@ -262,13 +244,14 @@ footer {
 
     .logo-back {
       display: inline-block;
-      padding-top: 0;
       margin: 0;
-      margin-left: 2rem;
     }
 
-    ol {
-      display: flex;
+    .logo-svg {
+      margin-top: 2em;
+      z-index: 9999;
+      position: fixed;
+      top: 0;
     }
 
     li {
@@ -283,7 +266,7 @@ footer {
 
     .horizontal {
       display: block;
-      padding-top: 3rem;
+      padding-top: 3em;
     }
 
     .about-photo {
@@ -300,10 +283,6 @@ footer {
       display: inline-block;
       width: 16rem;
       margin: 2rem;
-    }
-
-    .project-group {
-      margin-top: 8rem;
     }
 
 }
