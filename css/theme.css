@@ -197,7 +197,13 @@ footer {
 
 .project-photo {
   width: 100%;
-  padding: 1rem;
+  padding: .5rem;
+}
+
+.project-photo-tall {
+  width: 100%;
+  padding: .5rem;
+  text-align: center;
 }
 
 @media only screen and (min-width: 12em) {
@@ -283,6 +289,17 @@ footer {
       display: inline-block;
       width: 16rem;
       margin: 2rem;
+    }
+
+    .project-photo {
+      width: 100%;
+      padding: 2rem;
+    }
+
+    .project-photo-tall {
+      width: 50%;
+      padding: 2rem;
+      text-align: center;
     }
 
 }
