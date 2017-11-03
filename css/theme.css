@@ -43,6 +43,9 @@ h1 {
   font-weight: lighter;
   font-size: 2rem;
   line-height: 1;
+
+  color: #00ffd0;
+  text-shadow: 0em 0em 0.25em #00ffd0;
 }
 
 h2 {
