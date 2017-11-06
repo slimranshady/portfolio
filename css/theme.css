@@ -301,20 +301,18 @@ footer {
     }
 
     .project-photo {
-      width: 100%;
+      width: 90%;
       padding: 2rem;
     }
 
     .project-photo-tall {
       width: 50%;
       padding: 2rem;
-      text-align: center;
     }
 
     .project-photo-tallest {
       width: 20%;
       padding: 2rem;
-      text-align: center;
     }
 
 }
