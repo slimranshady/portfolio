@@ -918,6 +918,8 @@ button,
   font: inherit;
   text-decoration: none;
   text-transform: none;
+  transition: background-color 0.5s;
+
 }
 
 button::-moz-focus-inner {
