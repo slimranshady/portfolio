@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 :root {
-  --color-primary: #1c1847;
+  --color-primary: #000000;
   --color-primary-light: #d9224e;
   --color-secondary: #ff0066;
   --color-accent: #ffcc0d;
@@ -251,7 +251,6 @@ footer {
       left: 0;
       z-index: 999;
       width: 100%;
-      background-image: linear-gradient(to top, rgba(28, 24, 71, 0), rgba(28, 24, 71, .75));
     }
 
     .nav-bar {
