@@ -92,6 +92,10 @@ nav {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
+.nav-text {
+  font-size: 1rem;
+}
+
 li {
   display: inline-block;
   padding: 1rem;
