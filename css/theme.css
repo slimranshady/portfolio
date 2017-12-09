@@ -6,8 +6,6 @@
 
 :root {
   --color-primary: #000000;
-  --color-primary-light: #d9224e;
-  --color-secondary: #ff0066;
   --color-accent: #ffcc0d;
   --color-white: #fff;
 
@@ -173,10 +171,53 @@ svg:hover path {
   padding-bottom: 2em;
 }
 
-.project-thumbnail {
-  width: 100%;
-  padding: 1rem;
-  display: block;
+.project {
+  background-position: top;
+  padding-top: 22em;
+  margin: 0;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#vape-a-lot {
+  background-image: url(../images/vape-a-lot.svg);
+}
+
+#vape-a-lot:hover {
+  background-image: url(../images/vape-a-lot-hover.svg);
+}
+
+#eb-games {
+  background-image: url(../images/ebgames.svg);
+}
+
+#eb-games:hover {
+  background-image: url(../images/ebgames-hover.svg);
+}
+
+#cheo {
+  background-image: url(../images/cheo.svg);
+}
+
+#cheo:hover {
+  background-image: url(../images/cheo-hover.svg);
+}
+
+#beats {
+  background-image: url(../images/beats.svg);
+}
+
+#beats:hover {
+  background-image: url(../images/beats-hover.svg);
+}
+
+#gotham {
+  background-image: url(../images/gotham.svg);
+}
+
+#gotham:hover {
+  background-image: url(../images/gotham-hover.svg);
 }
 
 footer {
@@ -324,6 +365,7 @@ footer {
       display: inline-block;
       width: 16rem;
       margin: 2rem;
+      padding-top: 16rem;
     }
 
     .project-photo {
