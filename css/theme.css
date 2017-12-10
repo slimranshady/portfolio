@@ -29,7 +29,6 @@ a {
   color: #fff;
   padding: 0;
   margin: 0;
-  transition: color 0.5s;
 }
 
 a:hover {
@@ -69,6 +68,7 @@ h3 {
   font-weight: bolder;
   padding: 1em;
   margin: 0;
+  transition: color 0s;
 }
 
 .imran-name {
@@ -97,6 +97,7 @@ nav {
 
 .nav-text {
   font-size: 1rem;
+  transition: color 0.5s;
 }
 
 li {
@@ -182,42 +183,71 @@ svg:hover path {
 
 #vape-a-lot {
   background-image: url(../images/vape-a-lot.svg);
+  transition: 0.5s;
 }
 
 #vape-a-lot:hover {
   background-image: url(../images/vape-a-lot-hover.svg);
+  opacity: 100%;
 }
 
 #eb-games {
   background-image: url(../images/ebgames.svg);
+  transition: 0.5s;
 }
 
 #eb-games:hover {
   background-image: url(../images/ebgames-hover.svg);
+  opacity: 100%;
 }
 
 #cheo {
   background-image: url(../images/cheo.svg);
+  transition: 0.5s;
 }
 
 #cheo:hover {
   background-image: url(../images/cheo-hover.svg);
+  opacity: 100%;
 }
 
 #beats {
   background-image: url(../images/beats.svg);
+  transition: 0.5s;
 }
 
 #beats:hover {
   background-image: url(../images/beats-hover.svg);
+  opacity: 100%;
 }
 
 #gotham {
   background-image: url(../images/gotham.svg);
+  transition: 0.5s;
 }
 
 #gotham:hover {
   background-image: url(../images/gotham-hover.svg);
+}
+
+#font {
+  background-image: url(../images/font.svg);
+  transition: 0.5s;
+}
+
+#font:hover {
+  background-image: url(../images/font-hover.svg);
+  opacity: 100%;
+}
+
+#fun {
+  background-image: url(../images/fun.svg);
+  transition: 0.5s;
+}
+
+#fun:hover {
+  background-image: url(../images/fun-hover.svg);
+  opacity: 100%;
 }
 
 footer {
