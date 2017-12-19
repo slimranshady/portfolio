@@ -45,7 +45,7 @@ body {
   width: 0.25rem;
   position: absolute;
   left: 8rem;
-  top: 40rem;
+  top: 10rem;
 }
 
 .star-4 {
@@ -246,71 +246,71 @@ svg:hover path {
 }
 
 #vape-a-lot {
-  background-image: url(../images/vape-a-lot.svg);
+  background-image: url(../images/vape-a-lot.png);
   transition: 0.5s;
 }
 
 #vape-a-lot:hover {
-  background-image: url(../images/vape-a-lot-hover.svg);
+  background-image: url(../images/vape-a-lot-hover.png);
   opacity: 100%;
 }
 
 #eb-games {
-  background-image: url(../images/ebgames.svg);
+  background-image: url(../images/ebgames.png);
   transition: 0.5s;
 }
 
 #eb-games:hover {
-  background-image: url(../images/ebgames-hover.svg);
+  background-image: url(../images/ebgames-hover.png);
   opacity: 100%;
 }
 
 #cheo {
-  background-image: url(../images/cheo.svg);
+  background-image: url(../images/cheo.png);
   transition: 0.5s;
 }
 
 #cheo:hover {
-  background-image: url(../images/cheo-hover.svg);
+  background-image: url(../images/cheo-hover.png);
   opacity: 100%;
 }
 
 #beats {
-  background-image: url(../images/beats.svg);
+  background-image: url(../images/beats.png);
   transition: 0.5s;
 }
 
 #beats:hover {
-  background-image: url(../images/beats-hover.svg);
+  background-image: url(../images/beats-hover.png);
   opacity: 100%;
 }
 
 #gotham {
-  background-image: url(../images/gotham.svg);
+  background-image: url(../images/gotham.png);
   transition: 0.5s;
 }
 
 #gotham:hover {
-  background-image: url(../images/gotham-hover.svg);
+  background-image: url(../images/gotham-hover.png);
 }
 
 #font {
-  background-image: url(../images/font.svg);
+  background-image: url(../images/font.png);
   transition: 0.5s;
 }
 
 #font:hover {
-  background-image: url(../images/font-hover.svg);
+  background-image: url(../images/font-hover.png);
   opacity: 100%;
 }
 
 #fun {
-  background-image: url(../images/fun.svg);
+  background-image: url(../images/fun.png);
   transition: 0.5s;
 }
 
 #fun:hover {
-  background-image: url(../images/fun-hover.svg);
+  background-image: url(../images/fun-hover.png);
   opacity: 100%;
 }
 
