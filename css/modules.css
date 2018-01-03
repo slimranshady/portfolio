@@ -920,6 +920,8 @@ button,
   text-transform: none;
   transition: background-color 0.5s;
 
+  text-shadow: 0 0 5px #000;
+
 }
 
 button::-moz-focus-inner {
