@@ -183,7 +183,7 @@ li {
 }
 
 svg path {
-    transition: fill 0.5s;
+  transition: fill 0.5s;
 }
 
 svg:hover path {
