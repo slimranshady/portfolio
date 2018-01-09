@@ -916,6 +916,7 @@ button,
   border: 1px solid #fff;
   color: #fff;
   font: inherit;
+  font-weight: bold;
   text-decoration: none;
   text-transform: none;
   transition: background-color 0.5s;
