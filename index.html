@@ -3,14 +3,14 @@ layout: default
 ---
 
   <section>
-    <div class="banner">
-      <img class="img-flex vertical" src="{{site.baseurl}}/images/banner-vertical.png" alt="">
-      <img class="img-flex horizontal" src="{{site.baseurl}}/images/banner.png" alt="">
+      <video class="img-flex banner" preload="auto" autoplay="true" loop="loop" muted="muted" poster="{{site.baseurl}}/images/poster.png">
+        <source src="{{site.baseurl}}/images/banner.mp4" type="video/mp4">
+      </video>
+      <center>
       <div class="banner-content">
-        <h1>hello,human.</h1>
-        <a class="btn" href="#about">LIFT OFF!</a>
+        <a class="btn" href="#about">LIFT OFF</a>
       </div>
-    </div>
+    </center>
   </section>
   <section class="about-wrapper" id="about">
     <img class="section-break" src="{{site.baseurl}}/images/section-break.svg" src="">

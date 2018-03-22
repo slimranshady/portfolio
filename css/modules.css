@@ -913,16 +913,14 @@ button,
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  border: 3px solid #fff;
+  border: none;
   color: #fff;
   font: inherit;
   font-weight: bold;
   text-decoration: none;
   text-transform: none;
-  transition: background-color 0.5s;
 
   text-shadow: 0 0 10px #000;
-  box-shadow: inset 0 0 30px #000, 0 0 30px #000;
 
 }
 
@@ -935,11 +933,10 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  border: 3px solid var(--color-accent);
-  background-color: var(--color-accent);
-  color: #000;
-    text-shadow: 0 0 0;
-    box-shadow: 0 0 30px #000;
+  border: none;
+  color: var(--color-accent);
+  text-shadow: 0 0 0;
+  transition: color 0.33s;
 }
 
 button[disabled] {
