@@ -26,7 +26,7 @@ body {
 
 .star-1 {
   z-index: -999;
-  width: 0.25rem;
+  width: 0.5rem;
   position: absolute;
   left: 2rem;
   top: 20rem;
@@ -34,7 +34,7 @@ body {
 
 .star-2 {
   z-index: -999;
-  width: 0.5rem;
+  width: 2rem;
   position: absolute;
   left: 4rem;
   top: 14rem;
@@ -42,7 +42,7 @@ body {
 
 .star-3 {
   z-index: -999;
-  width: 0.25rem;
+  width: 1rem;
   position: absolute;
   left: 8rem;
   top: 10rem;
@@ -50,7 +50,7 @@ body {
 
 .star-4 {
   z-index: -999;
-  width: 0.5rem;
+  width: 1rem;
   position: absolute;
   left: 6rem;
   top: 20rem;
@@ -58,7 +58,7 @@ body {
 
 .star-5 {
   z-index: -999;
-  width: 0.25rem;
+  width: 0.75rem;
   position: absolute;
   right: 2rem;
   top: 20rem;
@@ -66,7 +66,7 @@ body {
 
 .star-6 {
   z-index: -999;
-  width: 0.5rem;
+  width: 1rem;
   position: absolute;
   right: 4rem;
   top: 20rem;
@@ -74,7 +74,7 @@ body {
 
 .star-7 {
   z-index: -999;
-  width: 0.25rem;
+  width: 0.75rem;
   position: absolute;
   right: 4rem;
   top: 20rem;
@@ -82,7 +82,7 @@ body {
 
 .star-8 {
   z-index: -999;
-  width: 0.5rem;
+  width: 1rem;
   position: absolute;
   right: 6rem;
   top: 10rem;
@@ -104,7 +104,7 @@ p {
 }
 
 h1 {
-  padding: .5rem;
+  padding-top: 10rem;
   margin: 0;
   text-align: center;
   font-weight: bold;
@@ -112,10 +112,12 @@ h1 {
   line-height: 1;
 
   color: #fff;
+  text-shadow: 0 0 10px #000;
 }
 
 .h1-404 {
   margin-top: -8rem;
+  text-shadow: 0 0 10px #000;
 }
 
 .btn-404 {
@@ -132,6 +134,7 @@ h2 {
   font-size: 3rem;
   line-height: 1;
   display: block;
+  text-shadow: 0 0 10px #000;
 }
 
 h3 {
@@ -140,10 +143,11 @@ h3 {
   font-weight: bolder;
   padding: 1em;
   margin: 0;
+  text-shadow: 0 0 10px #000;
 }
 
 .imran-name {
-  padding: 0em;
+  padding-top: 10em;
 }
 
 nav {
@@ -219,8 +223,11 @@ svg:hover path {
 }
 
 .about-photo {
-  padding: 2rem;
-  width: 75%;
+  position: absolute;
+  left: -19rem;
+  padding: 0rem;
+  min-width: 10%;
+  z-index: -99999;
 }
 
 .about {
@@ -237,7 +244,7 @@ svg:hover path {
   width: 100%;
   text-align: center;
   position: relative;
-  padding-bottom: 2em;
+  padding-bottom: 8em;
 }
 
 .project {
@@ -330,7 +337,7 @@ footer {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: -9999;
 }
 
 .padding-2 {
@@ -384,93 +391,97 @@ footer {
 
 @media only screen and (min-width: 38em) {
 
-  h1 {
-    font-size: 4rem;
-  }
-
   .banner-content {
     top: 15em;
   }
 
-    .nav {
-      position: fixed;
-      text-align: right;
-      padding: 2rem;
-      top: 0;
-      left: 0;
-      z-index: 999;
-      width: 100%;
-    }
+  .about-photo {
+    left: -7rem;
+  }
 
-    .nav-bar {
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 999;
-      width: 100%;
-    }
+  .nav {
+    position: fixed;
+    text-align: right;
+    padding: 2rem;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+  }
 
-    .logo-back {
-      display: inline-block;
-      margin: 0;
-    }
+  .nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+  }
 
-    .logo-svg {
-      margin-top: 1.25em;
-      z-index: 9999;
-      position: fixed;
-      top: 0;
-    }
+  .logo-back {
+    display: inline-block;
+    margin: 0;
+  }
 
-    li {
-      display: inline-block;
-      padding: 1rem;
-      font-size: 1.5rem;
-    }
+  .logo-svg {
+    margin-top: 1.25em;
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+  }
 
-    .vertical {
-      display: none;
-    }
+  li {
+    display: inline-block;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
 
-    .horizontal {
-      display: block;
-    }
+  .vertical {
+    display: none;
+  }
 
-    .about-photo {
-      width: 25rem;
-    }
+  .horizontal {
+    display: block;
+  }
 
-    .about {
-      margin-left: 2rem;
-      margin-right: 2rem;
-      padding: 0;
-    }
+  .about-photo {
 
-    .project {
-      display: inline-block;
-      width: 16rem;
-      margin: 2rem;
-      padding-top: 16rem;
-    }
+  }
 
-    .project-photo {
-      width: 90%;
-      padding: 2rem;
-    }
+  .about {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 0;
+  }
 
-    .project-photo-tall {
-      width: 50%;
-      padding: 2rem;
-    }
+  .project {
+    display: inline-block;
+    width: 16rem;
+    margin: 2rem;
+    padding-top: 16rem;
+  }
 
-    .project-photo-tallest {
-      width: 20%;
-      padding: 2rem;
-    }
+  .project-photo {
+    width: 90%;
+    padding: 2rem;
+  }
+
+  .project-photo-tall {
+    width: 50%;
+    padding: 2rem;
+  }
+
+  .project-photo-tallest {
+    width: 20%;
+    padding: 2rem;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
+
+  .about-photo {
+    left: 10rem;
+  }
 
   h2 {
     padding-top: 3em;
@@ -490,7 +501,7 @@ footer {
 @media only screen and (min-width: 90em) {
 
   h1 {
-    font-size: 6rem;
+    font-size: 5rem;
   }
 
   h2 {
@@ -507,6 +518,18 @@ footer {
 
   .banner-content {
     top: 60rem;
+  }
+
+  h1 {
+    padding-top: 20rem;
+  }
+
+  h2 {
+    padding-top: 40rem;
+  }
+
+  .about-photo {
+    left: 70rem;
   }
 
 }
