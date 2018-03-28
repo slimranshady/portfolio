@@ -201,10 +201,14 @@ svg:hover path {
   fill: var(--color-accent);
 }
 
+.banner-vertical {
+  display: block;
+}
+
 .banner {
   position: relative;
   top: 0;
-  display: block;
+  display: none;
 }
 
 .video-banner {
@@ -435,14 +439,6 @@ footer {
     font-size: 1.5rem;
   }
 
-  .vertical {
-    display: none;
-  }
-
-  .horizontal {
-    display: block;
-  }
-
   .about-photo {
 
   }
@@ -496,6 +492,14 @@ footer {
     top: 20rem;
   }
 
+  .banner-vertical {
+    display: none;
+  }
+
+  .banner {
+    display: block;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -509,7 +513,7 @@ footer {
   }
 
   .banner-content {
-    top: 32rem;
+    top: 28rem;
   }
 
 }
@@ -521,7 +525,7 @@ footer {
   }
 
   h1 {
-    padding-top: 20rem;
+    padding-top: 30rem;
   }
 
   h2 {
