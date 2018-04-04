@@ -116,12 +116,13 @@ h1 {
 }
 
 .h1-404 {
-  margin-top: -8rem;
+  margin-top: -16rem;
   text-shadow: 0 0 10px #000;
 }
 
 .btn-404 {
   margin-top: -2rem;
+  z-index: 99999;
 }
 
 h2 {
