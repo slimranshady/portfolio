@@ -321,10 +321,8 @@ svg:hover path {
 }
 
 .video {
-  width: 100%;
+  width: 18em;
   display: block;
-  max-width: 100%;
-  min-width: 100%;
 }
 
 footer {
@@ -472,9 +470,17 @@ footer {
     padding: 2rem;
   }
 
+  .video {
+    width: 30em;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
+
+  .video {
+    width: 40em;
+  }
 
   .about-photo {
     left: 10rem;
