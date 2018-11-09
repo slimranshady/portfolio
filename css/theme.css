@@ -301,13 +301,13 @@ svg:hover path {
   opacity: 100%;
 }
 
-#square {
-  background-image: url(../images/square.png);
+#stargasm {
+  background-image: url(../images/#stargasm.png);
   transition: 0.33s;
 }
 
-#square:hover {
-  background-image: url(../images/square-hover.png);
+#stargasm:hover {
+  background-image: url(../images/#stargasm-hover.png);
 }
 
 #fun {
