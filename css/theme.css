@@ -308,6 +308,7 @@ svg:hover path {
 
 #stargasm:hover {
   background-image: url(../images/stargasm-hover.png);
+  opacity: 100%;
 }
 
 #fun {
