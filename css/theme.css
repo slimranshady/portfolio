@@ -302,12 +302,12 @@ svg:hover path {
 }
 
 #stargasm {
-  background-image: url(../images/#stargasm.png);
+  background-image: url(../images/stargasm.png);
   transition: 0.33s;
 }
 
 #stargasm:hover {
-  background-image: url(../images/#stargasm-hover.png);
+  background-image: url(../images/stargasm-hover.png);
 }
 
 #fun {
